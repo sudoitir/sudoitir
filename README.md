@@ -2,28 +2,32 @@
     Hi 👋, I'm Mahdi
 </h1>
 
-```java
+```yml
 
-@Getter
-@NoArgsConstructor
-public class About extends Me {
-
-    public static final ToolGroup programingLanguages = new ToolGroup("ProgramingLanguages",
-            "Java");
-    public static final ToolGroup scriptingLanguages = new ToolGroup("scriptingLanguages",
-            "Bash");
-    public static final ToolGroup database = new ToolGroup("Database",
-            "Redis", "MonoDB", "Oracle", "PostgreSQL");
-    public static final ToolGroup editors = new ToolGroup("Editors",
-            "IntelliJ", "Nano", "Neovim");
-    public static final ToolGroup platforms = new ToolGroup("Platforms",
-            "Mac", "GNU/Linux");
-    public static final ToolGroup otherTools = new ToolGroup("OtherTools",
-            "Git", "ELK", "Postman", "Docker", "K8s", "Burp");
-
-    public record ToolGroup(String groupName, String... tools) {
-    }
-}
+About:
+  programingLanguages:
+    - Java
+  scriptingLanguages:
+    - Bash
+  database:
+    - Redis
+    - MonoDB
+    - Oracle
+    - PostgreSQL
+  editors:
+    - IntelliJ
+    - Nano
+    - Neovim
+  platforms:
+    - Mac
+    - GNU/Linux
+  otherTools:
+    - Git
+    - ELK
+    - Postman
+    - Docker
+    - K8s
+    - Burp
 
 ```
 
