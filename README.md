@@ -17,7 +17,7 @@ About:
   editors:
     - IntelliJ
     - Nano
-    - Neovim
+    - lunarvim
   platforms:
     - Mac
     - GNU/Linux
