@@ -11,7 +11,7 @@ About:
     - Bash
   database:
     - Redis
-    - MonoDB
+    - MongoDB
     - Oracle
     - PostgreSQL
   editors:
