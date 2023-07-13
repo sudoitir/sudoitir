@@ -31,3 +31,8 @@ About:
 
 ```
 
+###
+
+<img src="https://raw.githubusercontent.com/sudoitir/sudoitir/output/snake.svg" alt="Snake animation" />
+
+###
