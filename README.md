@@ -14,7 +14,7 @@ About:
     - MongoDB
     - Oracle
     - PostgreSQL
-  editors and IDE:
+  editorsAndIDE:
     - IntelliJ
     - Nano
     - lunarvim
